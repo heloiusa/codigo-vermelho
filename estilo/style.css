@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #c1121f;
+    --cor2: #AE1F23;
+    --cor3: #171413;
+}
+
+header{
+    background-color: var(--cor1);
+    padding-bottom: 5px;
+    position: fixed;
+    color: white;
+}
+h1{
+    font-weight: bolder;
+}
+
+main{
+    padding-top: 93px;
+}
+
+body{
+    text-align: justify;
+    color: var(--cor3)
+}
+
+a{
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: var(--cor1);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
